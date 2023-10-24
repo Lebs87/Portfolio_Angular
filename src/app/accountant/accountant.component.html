@@ -1,0 +1,5 @@
+<button type="button" [ngClass]="{'disabled': disabled, 'btn': true, 'btn-primary': true, 'btn-sm': true}" (click)="decrease()">
+    -
+</button>
+<span>{{number}}</span>
+<button type="button" [ngClass]="{'btn': true, 'btn-primary': true, 'btn-sm': true}" (click)="increase()">+</button>

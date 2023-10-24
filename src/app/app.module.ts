@@ -9,6 +9,12 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { CurriculumComponent } from './curriculum/curriculum.component';
 import { FooterComponent } from './footer/footer.component';
+import { AccountantComponent } from './accountant/accountant.component';
+import { SocialNetworksComponent } from './social-networks/social-networks.component';
+import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
+
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,10 +25,15 @@ import { FooterComponent } from './footer/footer.component';
     ProjectsComponent,
     SkillsComponent,
     CurriculumComponent,
-    FooterComponent
+    FooterComponent,
+    AccountantComponent,
+    SocialNetworksComponent,
+    HomeComponent,
+    ContactComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
