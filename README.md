@@ -46,11 +46,11 @@ Greetings everyone, I am creating my own portfolio based on Angular, I will do i
         - My ideal portfolio is made up of three views, a captivating home page that leaves a good first impression that is clean, sober and sophisticated, then a profile view made up of my job description as well as my skills and projects; finally a specific screen to contact me.
 2. #### Made a sketch of this project:
     - Home:
-    ![Sketch 1](https://res.cloudinary.com/dhw4kmb5x/image/upload/v1698244443/CV%20Luis/grohujxffzatnyfsbcy8.jpg)
+    - [Sketch 1](https://res.cloudinary.com/dhw4kmb5x/image/upload/v1698244443/CV%20Luis/grohujxffzatnyfsbcy8.jpg)
     - Profile:
-    ![Sketch 2](https://res.cloudinary.com/dhw4kmb5x/image/upload/v1698244173/CV%20Luis/jzvjgwmu88nizwh64rpl.jpg)
+    - [Sketch 2](https://res.cloudinary.com/dhw4kmb5x/image/upload/v1698244173/CV%20Luis/jzvjgwmu88nizwh64rpl.jpg)
     - Contact:
-    ![Sketch 3](https://res.cloudinary.com/dhw4kmb5x/image/upload/v1698244173/CV%20Luis/objmle3vfnf1xoi8lwoj.jpg)
+    - [Sketch 3](https://res.cloudinary.com/dhw4kmb5x/image/upload/v1698244173/CV%20Luis/objmle3vfnf1xoi8lwoj.jpg)
 3. #### Build the skeleton:
     - Home: Starts with my name as the main text, followed by the text with my title, at the bottom links to my contact pages.
     - Profile: In the style of a CV, it starts with my photo with presentation data and link to PDF of the CV; Following this, two components, one for the front and another for the back where the Skills are detailed; Third would be the projects that I have worked on in the form of a carousel, I imagine image and description; finally the work experience in the form of periods of time and we close with social networks.
