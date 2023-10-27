@@ -1,9 +1,47 @@
-<p>img</p>
-<h2>Contact me</h2>
-<form action="">
-  <input name="name" placeholder="Name">
-  <input name="email" placeholder="E-mail">
-  <input name="phoneNumber" placeholder="Phone Number">
-  <input name="coments" placeholder="Coments">
-  <button>Send message</button>
-</form>
+<section class="d-flex flex-column align-items-center">
+  <img src="" alt="Luis Belisario Photo">
+  <h2 class="m-4 ">Contact me</h2>  
+</section>
+<section class="card m-4">
+  <div class="card-body m-4">
+    <form (ngSubmit)="process()">
+      <div class="d-flex justify-content-evenly">
+        <div class="mb-2 flex-fill mx-2">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" class="form-control" name="name" placeholder="Name" [(ngModel)]="person.name" required #name="ngModel">
+          <div [hidden]="name.valid || name.pristine" class="alert alert-warning alert-dismissible fade show" role="alert">
+            This field is required
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="mb-2 flex-fill mx-2">
+          <label for="email" class="form-label">E-mail:</label>
+          <input type="text" class="form-control" name="email" placeholder="E-mail" [(ngModel)]="person.email" required #email="ngModel">
+          <div [hidden]="email.valid || email.pristine" class="alert alert-warning alert-dismissible fade show" role="alert">
+            This field is required
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="mb-2 flex-fill mx-2">
+          <label for="phoneNumber" class="form-label">Phone number:</label>
+          <input type="text" class="form-control" name="phoneNumber" placeholder="Phone Number" [(ngModel)]="person.phoneNumber" required #phoneNumber="ngModel">
+          <div [hidden]="phoneNumber.valid || phoneNumber.pristine" class="alert alert-warning alert-dismissible fade show" role="alert">
+            This field is required
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+      <div class="mb-2 mx-2">
+        <label for="coment" class="form-label">Coments:</label>
+        <textarea class="form-control" name="coment" placeholder="Coments" [(ngModel)]="person.coment" required #coment="ngModel" ></textarea>
+        <div [hidden]="coment.valid || coment.pristine" class="alert alert-warning alert-dismissible fade show" role="alert">
+          This field is required
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="m-4 d-flex justify-content-center">
+        <button class="btn btn-primary">Send message</button>
+      </div>
+    </form>
+  </div>
+</section>

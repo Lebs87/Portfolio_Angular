@@ -20,7 +20,7 @@ Greetings everyone, I am creating my own portfolio based on Angular, I will do i
 - [ ] Build the skeleton.
     - [ ] Home.
     - [ ] Profile.
-    - [ ] Contact.
+    - [x] Contact.
 - [ ] Add routes and links.
     - [ ] Internal.
     - [ ] External.

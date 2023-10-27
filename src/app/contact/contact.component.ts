@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
 
+person = {
+  name: '',
+  email: '',
+  phoneNumber: '',
+  coment: '',
+};
+
+process(){
+  console.log(this.person);
+};
+
 }
